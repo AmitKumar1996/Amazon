@@ -1,23 +1,54 @@
-*{
+* {
     margin: 0;
     font-family: Arial;
-    border: border-box;
+    box-sizing: border-box; /* Correct way to use border-box */
 }
 
 .navbar {
     height: 60px;
-    background-color:  #0f1111;
+    background-color: #0f1111;
     color: wheat;
+    display: flex;
+    align-items: center;
 }
 
-.nav-logo {
+.nav-logo { 
     height: 50px;
     width: 100px;
 }
 
-.logo {
-   background-image: url("amazon_logo.png");
-   background-size: cover ;
-   height: 50px;
-   width: 100%;
+.border {
+    border: 2px solid transparent;
 }
+
+.border:hover { /* Fixed hover selector */
+    border: 1.5px solid white;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/** Box 2 **/
+.add-first {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+.add-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
