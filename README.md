@@ -10,3 +10,8 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/AmitKumar1996/Code-and-Coffee.git
 git push -u origin main
+
+
+React
+   -->react-dom(web)
+   -->react-native(Mobile App)
